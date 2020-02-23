@@ -10,6 +10,7 @@ import re
 from scipy import stats
 import string
 
+'''
 tab = str.maketrans("ACTG", "TGAC")
 
 def rev_compl_table(seq):
@@ -62,6 +63,7 @@ for i in range(int(lenght)):
 
         for lines in f:
             lines = lines.strip()
+
 
 #            print(lines)
 
@@ -181,122 +183,6 @@ for i in range(int(lenght)):
 
     counter = 0
 
-
-
-'''
-
-
-    with open(exonerate_file) as f:
-
-        for line in f:
-            line = line.strip('\r\n')
-            line = line.strip('\n')
-
-
-#            print(line)
-
-
-            if line[8:16] == 'Target: ':
-
-                query = 0
-                indic_h = 0
-
-                seq_name = '>' + line[16:]
-                sequence = ''
-
-                counter += 1
-
-#                print(seq_name)
-
-            elif query == 0:
-#                if line[6:7] == ':':
-                if re.match('[0-9 ]+: [a-zA-Z]*', line):
-                    spacer = len(re.match('([0-9 ]+: )[a-zA-Z]*', line).group(1))
-                    query = 1
-
-            elif query == 1:
-
-                if line[:15] != '         Query:':
-
-#                    if re.match('[ \:\!]{5,}[\|]+', line):
-                    if re.match('[ ]{5,}', line[:spacer]):
-                        if indic_h == 0:
-
-#                        indic = str(re.match('[ ]+([\|\!\:\. ]*)', line).group(1))
-                            indic = line[spacer:]
-
-                            indic_h = 1
-
-                        elif indic_h == 1:
-                            helper = line[spacer:]
-                            indic_h = 0
-
-                    elif re.match('[0-9 ]+: [a-zA-Z]*', line):
-                        query = 0
-
-                        target = re.match('[ ]+[0-9]+ : (.*)', line)
-                        target = target.group(1)
-
-#                        print(indic)
-#                        print(helper)
-#                        print(target)
-
-                        for i in range(len(indic)):
-                            if indic[i:i+1] == '|':
-#                                if indic[i+1:i+2] != '}':
-                                if '}' not in target[i:i+3]:
-                                    if '{' not in target[i-2:i+1]:
-                                        sequence += target[i:i+1]
-
-                            elif indic[i:i+1] == ' ':
-                                if target[i:i+1] != '.':
-                                    if helper[i:i+1] != '+':
-                                        if helper[i:i+1] != '-':
-#                                            if '}' not in target[i-2:i+1]:
-#                                                if '{' not in target[i:+3]:
-                                            if target[i:i+1] != '-':
-                                                sequence += target[i:i+1]
-
-                            elif indic[i:i+1] == '!':
-                                sequence += target[i:i+1]
-
-                            elif indic[i:i+1] == ':':
-                                sequence += target[i:i+1]
-
-                            elif indic[i:i+1] == '.':
-                                sequence += target[i:i+1]
-
-
-            if line[:2] == '--':
-
-                if skip == 0:
-                    skip = 1
-
-                elif skip == 1:
-
-#                    if reverse == 1:
-#                        sequence = Seq(sequence, generic_dna)
-#                        print(sequence)
-#                        sequence = sequence.complement()
-#                        print(sequence)
-    #                print(sequence)
-                    new.append(seq_name)
-                    new.append(sequence)
-                    seq_name = ''
-                    sequence = ''
-
-                    skip = 0
-
-    name = exonerate_file[:-15] + 'multi_sl25_prt.fasta'
-
-    print('name after exonerate analysis:',name)
-
-    thefile = open(name, 'w')
-    for item in new:
-        thefile.write('%s\n' % item)
-    thefile.close()
-
-'''
 
 #####################################################################################
 ### reorganise all files and move the new cds files into the new 'cds' directory ####
@@ -720,11 +606,18 @@ os.system('rm lnf')
 os.system('rm rst*')
 os.system('rm rub')
 
+'''
+
+#for files in glob.glob('mlc_*'):
+#    os.system('grep " (p1 =  " ' + files + ' >> modeltesting.txt')
+#    os.system('grep lnL ' + files + ' >> modeltesting.txt')
 
 os.system('grep lnL mlc* > modeltesting.txt')
+os.system('grep " (p1 =  " mlc* >> modeltesting.txt')
+
+'''
 
 print(models)
-
 
 info = list()
 new = list()
@@ -737,11 +630,6 @@ with open('modeltesting.txt') as f:
         df = re.search('np:([0-9]*)\):', lines)
         ln = re.search(': +([0-9\.\-]*) ', lines)
         test = re.search(":\t([0-9\.\-]*)\t", lines)
-
-
-
-
-
 
         if name != None:
 
@@ -822,3 +710,4 @@ df_ana.to_csv('summary_model_testing.csv', index=None)
 os.system('mv *codeml.ctl ./model_testing_CODEML/')
 os.system('mv *codonAlignment.txt ./model_testing_CODEML/')
 
+'''

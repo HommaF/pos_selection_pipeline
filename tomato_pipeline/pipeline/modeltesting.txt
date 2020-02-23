@@ -1,0 +1,90 @@
+mlc_1_FRK2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:181  np:184):  -1764.916648      +0.000000
+mlc_1_LOC100301935_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:223  np:226):  -2485.190495      +0.000000
+mlc_1_LOC101253788_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:257  np:260):  -1780.403787      +0.000000
+mlc_1_LOC101254950_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:197  np:200):  -3473.496720      +0.000000
+mlc_1_LOC101256090_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:180):  -2346.244834      +0.000000
+mlc_1_LOC101257899_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:179  np:182):  -2271.775934      +0.000000
+mlc_1_LOC101262042_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:147  np:150):  -1430.981668      +0.000000
+mlc_1_LOC101263954_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:191  np:194):  -2271.063612      +0.000000
+mlc_1_LOC101264237_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:165  np:168):  -2844.352852      +0.000000
+mlc_1_LOC101266500_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:180):  -2050.177850      +0.000000
+mlc_1_LOC101268253_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:173  np:176):  -3507.925954      +0.000000
+mlc_1_LOC778308_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:169  np:172):  -4568.596664      +0.000000
+mlc_1_P4_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:151  np:154):  -1076.623424      +0.000000
+mlc_1_P69A_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:209  np:212):  -4685.359641      +0.000000
+mlc_1_P69B_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:211  np:214):  -5276.936765      +0.000000
+mlc_1_PR-P2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:167  np:170):  -1049.892986      +0.000000
+mlc_1_PR1a2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:215  np:218):  -1261.772049      +0.000000
+mlc_1_SlArf_Xyl3_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:239  np:242):  -4966.637309      +0.000000
+mlc_2_FRK2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:181  np:186):  -1764.290161      +0.000000
+mlc_2_LOC100301935_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:223  np:228):  -2477.209246      +0.000000
+mlc_2_LOC101253788_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:257  np:262):  -1776.061481      +0.000000
+mlc_2_LOC101254950_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:197  np:202):  -3464.595950      +0.000000
+mlc_2_LOC101256090_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:182):  -2346.244834      +0.000000
+mlc_2_LOC101257899_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:179  np:184):  -2264.253534      +0.000000
+mlc_2_LOC101262042_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:147  np:152):  -1427.886711      +0.000000
+mlc_2_LOC101263954_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:191  np:196):  -2270.269461      +0.000000
+mlc_2_LOC101264237_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:165  np:170):  -2842.844803      +0.000000
+mlc_2_LOC101266500_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:182):  -2046.768210      +0.000000
+mlc_2_LOC101268253_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:173  np:178):  -3472.510489      +0.000000
+mlc_2_LOC778308_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:169  np:174):  -4565.615713      +0.000000
+mlc_2_P4_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:151  np:156):  -1076.347254      +0.000000
+mlc_2_P69A_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:209  np:214):  -4651.164514      +0.000000
+mlc_2_P69B_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:211  np:216):  -5235.705415      +0.000000
+mlc_2_PR-P2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:167  np:172):  -1048.749470      +0.000000
+mlc_2_PR1a2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:215  np:220):  -1259.319910      +0.000000
+mlc_2_SlArf_Xyl3_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:239  np:244):  -4906.004649      +0.000000
+mlc_7_FRK2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:181  np:184):  -1767.442754      +0.000000
+mlc_7_LOC100301935_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:223  np:226):  -2489.410469      +0.000000
+mlc_7_LOC101253788_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:257  np:260):  -1783.938261      +0.000000
+mlc_7_LOC101254950_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:197  np:200):  -3480.305504      +0.000000
+mlc_7_LOC101256090_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:180):  -2347.512966      +0.000000
+mlc_7_LOC101257899_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:179  np:182):  -2272.322603      +0.000000
+mlc_7_LOC101262042_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:147  np:150):  -1431.814123      +0.000000
+mlc_7_LOC101263954_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:191  np:194):  -2271.075289      +0.000000
+mlc_7_LOC101264237_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:165  np:168):  -2845.394743      +0.000000
+mlc_7_LOC101266500_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:180):  -2050.288021      +0.000000
+mlc_7_LOC101268253_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:173  np:176):  -3514.411270      +0.000000
+mlc_7_LOC778308_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:169  np:172):  -4568.606909      +0.000000
+mlc_7_P4_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:151  np:154):  -1076.734765      +0.000000
+mlc_7_P69A_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:209  np:212):  -4686.790956      +0.000000
+mlc_7_P69B_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:211  np:214):  -5288.178305      +0.000000
+mlc_7_PR-P2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:167  np:170):  -1051.791353      +0.000000
+mlc_7_PR1a2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:215  np:218):  -1263.074597      +0.000000
+mlc_7_SlArf_Xyl3_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:239  np:242):  -4972.465843      +0.000000
+mlc_8_FRK2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:181  np:186):  -1764.700798      +0.000000
+mlc_8_LOC100301935_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:223  np:228):  -2478.334258      +0.000000
+mlc_8_LOC101253788_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:257  np:262):  -1776.075019      +0.000000
+mlc_8_LOC101254950_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:197  np:202):  -3464.605794      +0.000000
+mlc_8_LOC101256090_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:182):  -2346.244827      +0.000000
+mlc_8_LOC101257899_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:179  np:184):  -2264.160982      +0.000000
+mlc_8_LOC101262042_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:147  np:152):  -1427.894710      +0.000000
+mlc_8_LOC101263954_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:191  np:196):  -2270.262257      +0.000000
+mlc_8_LOC101264237_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:165  np:170):  -2842.718152      +0.000000
+mlc_8_LOC101266500_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:177  np:182):  -2048.472980      +0.000000
+mlc_8_LOC101268253_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:173  np:178):  -3472.201976      +0.000000
+mlc_8_LOC778308_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:169  np:174):  -4565.612797      +0.000000
+mlc_8_P4_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:151  np:156):  -1076.350686      +0.000000
+mlc_8_P69A_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:209  np:214):  -4651.604248      +0.000000
+mlc_8_P69B_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:211  np:216):  -5238.928459      +0.000000
+mlc_8_PR-P2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:167  np:172):  -1048.657217      +0.000000
+mlc_8_PR1a2_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:215  np:220):  -1259.333840      +0.000000
+mlc_8_SlArf_Xyl3_prot_linear_multi_sl25_prt_codonAlignment.txt:lnL(ntime:239  np:244):  -4906.239684      +0.000000
+mlc_8_FRK2_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.05161) w =   1.49174
+mlc_8_LOC100301935_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.04487) w =   4.38787
+mlc_8_LOC101253788_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.04684) w =   3.36638
+mlc_8_LOC101254950_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.03128) w =   4.29583
+mlc_8_LOC101256090_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.02634) w =   1.00000
+mlc_8_LOC101257899_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.01766) w =   6.89977
+mlc_8_LOC101262042_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.05452) w =   3.40496
+mlc_8_LOC101263954_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.01205) w =   6.02587
+mlc_8_LOC101264237_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.00267) w =   7.64583
+mlc_8_LOC101266500_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.20388) w =   1.72242
+mlc_8_LOC101268253_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.04328) w =   5.43018
+mlc_8_LOC778308_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.08977) w =   2.35596
+mlc_8_P4_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.06822) w =   2.05217
+mlc_8_P69A_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.03123) w =   8.14068
+mlc_8_P69B_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.06188) w =   4.17308
+mlc_8_PR-P2_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.02932) w =   2.82055
+mlc_8_PR1a2_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.03946) w =   2.99437
+mlc_8_SlArf_Xyl3_prot_linear_multi_sl25_prt_codonAlignment.txt: (p1 =   0.01180) w =  15.76132

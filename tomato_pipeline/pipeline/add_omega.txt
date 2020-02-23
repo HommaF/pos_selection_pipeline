@@ -1,0 +1,3 @@
+approach:
+I want to extract all information of p1 and w for all proteins under positive selection and include it in the output file
+use Regex for this
