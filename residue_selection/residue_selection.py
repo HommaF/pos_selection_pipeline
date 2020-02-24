@@ -119,34 +119,22 @@ for h in range(int(len(alignments))):
 
             if start == 1:
 
-                sign = re.match(' +[0-9]+ [A-Z]{1} +[0-9\.]{5}(\*+) ', line)
+#                sign = re.match(' +[0-9]+ [A-Z]{1} +[0-9\.]{5}(\*+) ', line)
+                sign = re.match(' +[0-9]+ [A-Z]{1} +([0-9\.]{5})', line)
                 if sign != None:
-                    if sign.group(1) == '*':
+#                    print('its not none:', sign.group(1))
+
+                    if float(sign.group(1)) >= 0.8:
+
+                        print('its larger than 0.8:', sign.group(1))
+#                        print('it might have an asteriks:', sign.group(2))
 
                         entry = list()
 
                         pos_aa = int(re.match(' +([0-9]+) +[A-Z]{1}?', line).group(1))
                         ref_aa = re.match(' +[0-9]+ {1}?([A-Z]{1}?)', line).group(1)
-                        sign_lv = 0.95
+                        sign_lv = float(sign.group(1))
 
-                        loci.append(pos_aa-1)
-
-                        entry.append(pos_aa)
-                        entry.append(ref_aa)
-                        entry.append(sign_lv)
-
-                        new.append(entry)
-
-
-                    if sign.group(1) == '**':
-
-                        entry = list()
-
-
-                        pos_aa = int(re.match(' +([0-9]+) +[A-Z]{1}?', line).group(1))
-                        sign_lv = 0.99
-                        ref_aa = re.match(' +[0-9]+ {1}?([A-Z]{1}?)', line).group(1)
-                        
                         loci.append(pos_aa-1)
 
                         entry.append(pos_aa)
@@ -219,9 +207,9 @@ for h in range(int(len(alignments))):
                     codon = line[0+3*i:3+3*i]
 
                     if i in loci:
-                        print('this is i:', i)
-                        print('codon:', codon)
-                        print('counter', counter)
+#                        print('this is i:', i)
+#                        print('codon:', codon)
+#                        print('counter', counter)
 
                         if dic_codons[codon.upper()] not in alt_seq[counter]:
                             if dic_codons[codon.upper()] != ref_seq[counter]:
