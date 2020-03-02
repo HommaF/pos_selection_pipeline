@@ -1,0 +1,30 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/LOC101254568_inference_similar_to_RNA_sequence%2C_mRNA__same_species__INSD_AK324833_1_partial_true_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	500	3813	2589	+	.	gene_id 0 ; sequence XP_010317463_1 ; gene_orientation + ; identity 99.79 ; similarity 100.00
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	500	1047	.	+	.	
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	500	1047	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1048	1049	.	+	.	intron_id 1 ; splice_site "GT"
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1048	2065	.	+	.	intron_id 1
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2064	2065	.	+	.	intron_id 0 ; splice_site "AG"
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2066	2302	.	+	.	
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2066	2302	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2303	2304	.	+	.	intron_id 2 ; splice_site "GT"
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2303	3143	.	+	.	intron_id 2
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	3142	3143	.	+	.	intron_id 1 ; splice_site "AG"
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	3144	3813	.	+	.	
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	3144	3813	.	+	.	insertions 0 ; deletions 0 ; identity 99.55 ; similarity 100.00
+LOC101254568_inference_similar_to_RNA_sequence_2C_mRNA__same_species__INSD_AK324833_1_partial_true_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	500	3813	2589	+	.	alignment_id 0 ; Query XP_010317463_1 ; Align 500 1 546 ; Align 2067 184 234 ; Align 3145 263 669
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

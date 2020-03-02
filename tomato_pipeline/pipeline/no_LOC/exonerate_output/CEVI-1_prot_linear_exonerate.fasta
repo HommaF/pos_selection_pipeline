@@ -1,0 +1,35 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/CEVI-1_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	503	3083	1638	-	.	gene_id 0 ; sequence NP_001234132_2 ; gene_orientation + ; identity 99.69 ; similarity 100.00
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2877	3083	.	-	.	
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2877	3083	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2875	2876	.	-	.	intron_id 1 ; splice_site "GT"
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2452	2876	.	-	.	intron_id 1
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2452	2453	.	-	.	intron_id 0 ; splice_site "ag"
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2263	2451	.	-	.	
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2263	2451	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2261	2262	.	-	.	intron_id 2 ; splice_site "GT"
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1747	2262	.	-	.	intron_id 2
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1747	1748	.	-	.	intron_id 1 ; splice_site "ag"
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1581	1746	.	-	.	
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1581	1746	.	-	.	insertions 0 ; deletions 0 ; identity 98.18 ; similarity 100.00
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1579	1580	.	-	.	intron_id 3 ; splice_site "gt"
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	916	1580	.	-	.	intron_id 3
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	916	917	.	-	.	intron_id 2 ; splice_site "ag"
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	503	915	.	-	.	
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	503	915	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+CEVI-1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	503	3083	1638	-	.	alignment_id 0 ; Query NP_001234132_2 ; Align 3084 1 207 ; Align 2452 70 189 ; Align 1747 133 165 ; Align 914 189 411
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

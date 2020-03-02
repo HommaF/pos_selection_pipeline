@@ -1,0 +1,45 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/LOC101253805_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	503	2475	2281	-	.	gene_id 0 ; sequence XP_004243968_1 ; gene_orientation + ; identity 99.59 ; similarity 100.00
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2056	2475	.	-	.	
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2056	2475	.	-	.	insertions 0 ; deletions 0 ; identity 99.29 ; similarity 100.00
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2054	2055	.	-	.	intron_id 1 ; splice_site "gt"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1925	2055	.	-	.	intron_id 1
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1925	1926	.	-	.	intron_id 0 ; splice_site "AG"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1847	1924	.	-	.	
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1847	1924	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1845	1846	.	-	.	intron_id 2 ; splice_site "GT"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1768	1846	.	-	.	intron_id 2
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1768	1769	.	-	.	intron_id 1 ; splice_site "AG"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1507	1767	.	-	.	
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1507	1767	.	-	.	insertions 0 ; deletions 0 ; identity 98.86 ; similarity 100.00
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1505	1506	.	-	.	intron_id 3 ; splice_site "GT"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1439	1506	.	-	.	intron_id 3
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1439	1440	.	-	.	intron_id 2 ; splice_site "AG"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1121	1438	.	-	.	
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1121	1438	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1119	1120	.	-	.	intron_id 4 ; splice_site "GT"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1034	1120	.	-	.	intron_id 4
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1034	1035	.	-	.	intron_id 3 ; splice_site "AG"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	875	1033	.	-	.	
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	875	1033	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	873	874	.	-	.	intron_id 5 ; splice_site "GT"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	713	874	.	-	.	intron_id 5
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	713	714	.	-	.	intron_id 4 ; splice_site "AG"
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	503	712	.	-	.	
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	503	712	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101253805_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	503	2475	2281	-	.	alignment_id 0 ; Query XP_004243968_1 ; Align 2476 1 420 ; Align 1925 141 78 ; Align 1768 167 261 ; Align 1439 254 318 ; Align 1034 360 159 ; Align 713 413 210
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

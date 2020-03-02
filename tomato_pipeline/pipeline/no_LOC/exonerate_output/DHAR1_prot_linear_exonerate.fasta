@@ -1,0 +1,45 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/DHAR1_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	503	4394	1000	-	.	gene_id 0 ; sequence NP_001234822_2 ; gene_orientation + ; identity 99.52 ; similarity 100.00
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	4337	4394	.	-	.	
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	4337	4394	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	4335	4336	.	-	.	intron_id 1 ; splice_site "GT"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2886	4336	.	-	.	intron_id 1
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2886	2887	.	-	.	intron_id 0 ; splice_site "AG"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2795	2885	.	-	.	
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2795	2885	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2793	2794	.	-	.	intron_id 2 ; splice_site "GT"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2697	2794	.	-	.	intron_id 2
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2697	2698	.	-	.	intron_id 1 ; splice_site "AG"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2553	2696	.	-	.	
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2553	2696	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2551	2552	.	-	.	intron_id 3 ; splice_site "GT"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1531	2552	.	-	.	intron_id 3
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1531	1532	.	-	.	intron_id 2 ; splice_site "AG"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1413	1530	.	-	.	
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1413	1530	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1411	1412	.	-	.	intron_id 4 ; splice_site "GT"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1312	1412	.	-	.	intron_id 4
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1312	1313	.	-	.	intron_id 3 ; splice_site "AG"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1171	1311	.	-	.	
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1171	1311	.	-	.	insertions 0 ; deletions 0 ; identity 97.92 ; similarity 100.00
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1169	1170	.	-	.	intron_id 5 ; splice_site "GT"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	581	1170	.	-	.	intron_id 5
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	581	582	.	-	.	intron_id 4 ; splice_site "AG"
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	503	580	.	-	.	
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	503	580	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+DHAR1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	503	4394	1000	-	.	alignment_id 0 ; Query NP_001234822_2 ; Align 4395 1 57 ; Align 2884 21 87 ; Align 2696 51 141 ; Align 1530 99 117 ; Align 1312 138 141 ; Align 581 185 78
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

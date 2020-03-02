@@ -13,8 +13,8 @@ print(data)
 
 for i in data.index:
 
-    print('prot ID:',i)
-    print('gene name:',data.loc[i,'gene'])
+#    print('prot ID:',i)
+#    print('gene name:',data.loc[i,'gene'])
 
     protein_file = data.loc[i, 'gene'] + '_prot_linear.fasta'
     os.system('grep -A 1 ' + i + ' ' + sys.argv[2] + ' > ' + protein_file) 

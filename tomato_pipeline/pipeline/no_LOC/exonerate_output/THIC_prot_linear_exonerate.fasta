@@ -1,0 +1,35 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/THIC_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	500	3459	3401	+	.	gene_id 0 ; sequence NP_001304334_1 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	500	807	.	+	.	
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	500	807	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	808	809	.	+	.	intron_id 1 ; splice_site "GT"
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	808	1051	.	+	.	intron_id 1
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1050	1051	.	+	.	intron_id 0 ; splice_site "AG"
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1052	1179	.	+	.	
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1052	1179	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1180	1181	.	+	.	intron_id 2 ; splice_site "GT"
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1180	1815	.	+	.	intron_id 2
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1814	1815	.	+	.	intron_id 1 ; splice_site "AG"
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1816	2642	.	+	.	
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1816	2642	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2643	2644	.	+	.	intron_id 3 ; splice_site "GT"
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2643	2775	.	+	.	intron_id 3
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2774	2775	.	+	.	intron_id 2 ; splice_site "AG"
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2776	3459	.	+	.	
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2776	3459	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+THIC_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	500	3459	3401	+	.	alignment_id 0 ; Query NP_001304334_1 ; Align 500 1 306 ; Align 1053 104 126 ; Align 1818 147 825 ; Align 2776 422 684
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

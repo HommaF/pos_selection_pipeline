@@ -1,0 +1,20 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/LOC101262296_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+LOC101262296_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	503	1240	1255	-	.	gene_id 0 ; sequence XP_004235412_1 ; gene_orientation . ; identity 99.19 ; similarity 100.00
+LOC101262296_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	503	1240	.	-	.	
+LOC101262296_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	503	1240	.	-	.	insertions 0 ; deletions 0 ; identity 99.19 ; similarity 100.00
+LOC101262296_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	503	1240	1255	-	.	alignment_id 0 ; Query XP_004235412_1 ; Align 1241 1 738
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

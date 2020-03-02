@@ -1,0 +1,30 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/LOC101256931_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	500	9774	1700	+	.	gene_id 0 ; sequence XP_004249350_1 ; gene_orientation + ; identity 99.72 ; similarity 99.72
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	500	802	.	+	.	
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	500	802	.	+	.	insertions 0 ; deletions 0 ; identity 99.02 ; similarity 99.02
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	803	804	.	+	.	intron_id 1 ; splice_site "GT"
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	803	8445	.	+	.	intron_id 1
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	8444	8445	.	+	.	intron_id 0 ; splice_site "AG"
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	8446	8958	.	+	.	
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	8446	8958	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	8959	8960	.	+	.	intron_id 2 ; splice_site "GT"
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	8959	9534	.	+	.	intron_id 2
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	9533	9534	.	+	.	intron_id 1 ; splice_site "AG"
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	9535	9774	.	+	.	
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	9535	9774	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101256931_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	500	9774	1700	+	.	alignment_id 0 ; Query XP_004249350_1 ; Align 500 1 303 ; Align 8446 102 513 ; Align 9535 273 240
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

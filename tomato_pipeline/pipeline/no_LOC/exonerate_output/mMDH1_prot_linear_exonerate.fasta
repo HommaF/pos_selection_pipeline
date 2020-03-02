@@ -1,0 +1,50 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/mMDH1_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	500	3247	1610	+	.	gene_id 0 ; sequence NP_001234001_2 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	500	754	.	+	.	
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	500	754	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	755	756	.	+	.	intron_id 1 ; splice_site "GT"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	755	1330	.	+	.	intron_id 1
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1329	1330	.	+	.	intron_id 0 ; splice_site "AG"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1331	1504	.	+	.	
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1331	1504	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1505	1506	.	+	.	intron_id 2 ; splice_site "GT"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1505	1613	.	+	.	intron_id 2
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1612	1613	.	+	.	intron_id 1 ; splice_site "AG"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1614	1782	.	+	.	
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1614	1782	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1783	1784	.	+	.	intron_id 3 ; splice_site "GT"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1783	1899	.	+	.	intron_id 3
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1898	1899	.	+	.	intron_id 2 ; splice_site "AG"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1900	1961	.	+	.	
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1900	1961	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1962	1963	.	+	.	intron_id 4 ; splice_site "gt"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1962	2144	.	+	.	intron_id 4
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2143	2144	.	+	.	intron_id 3 ; splice_site "AG"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2145	2266	.	+	.	
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2145	2266	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2267	2268	.	+	.	intron_id 5 ; splice_site "GT"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2267	2510	.	+	.	intron_id 5
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2509	2510	.	+	.	intron_id 4 ; splice_site "AG"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2511	2628	.	+	.	
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2511	2628	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2629	2630	.	+	.	intron_id 6 ; splice_site "GT"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2629	3109	.	+	.	intron_id 6
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	3108	3109	.	+	.	intron_id 5 ; splice_site "AG"
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	3110	3247	.	+	.	
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	3110	3247	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+mMDH1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	500	3247	1610	+	.	alignment_id 0 ; Query NP_001234001_2 ; Align 500 1 255 ; Align 1331 86 174 ; Align 1614 144 168 ; Align 1902 201 60 ; Align 2145 221 120 ; Align 2512 262 117 ; Align 3110 301 138
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

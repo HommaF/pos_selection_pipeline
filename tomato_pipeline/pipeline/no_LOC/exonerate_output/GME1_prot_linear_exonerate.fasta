@@ -1,0 +1,45 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/GME1_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+GME1_S.per_LA1278	exonerate:protein2genome:local	gene	492	2464	1911	+	.	gene_id 0 ; sequence XP_010323635_1 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+GME1_S.per_LA1278	exonerate:protein2genome:local	cds	492	901	.	+	.	
+GME1_S.per_LA1278	exonerate:protein2genome:local	exon	492	901	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice5	902	903	.	+	.	intron_id 1 ; splice_site "GT"
+GME1_S.per_LA1278	exonerate:protein2genome:local	intron	902	1064	.	+	.	intron_id 1
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice3	1063	1064	.	+	.	intron_id 0 ; splice_site "AG"
+GME1_S.per_LA1278	exonerate:protein2genome:local	cds	1065	1158	.	+	.	
+GME1_S.per_LA1278	exonerate:protein2genome:local	exon	1065	1158	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice5	1159	1160	.	+	.	intron_id 2 ; splice_site "GT"
+GME1_S.per_LA1278	exonerate:protein2genome:local	intron	1159	1256	.	+	.	intron_id 2
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice3	1255	1256	.	+	.	intron_id 1 ; splice_site "AG"
+GME1_S.per_LA1278	exonerate:protein2genome:local	cds	1257	1386	.	+	.	
+GME1_S.per_LA1278	exonerate:protein2genome:local	exon	1257	1386	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice5	1387	1388	.	+	.	intron_id 3 ; splice_site "GT"
+GME1_S.per_LA1278	exonerate:protein2genome:local	intron	1387	1481	.	+	.	intron_id 3
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice3	1480	1481	.	+	.	intron_id 2 ; splice_site "AG"
+GME1_S.per_LA1278	exonerate:protein2genome:local	cds	1482	1614	.	+	.	
+GME1_S.per_LA1278	exonerate:protein2genome:local	exon	1482	1614	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice5	1615	1616	.	+	.	intron_id 4 ; splice_site "GT"
+GME1_S.per_LA1278	exonerate:protein2genome:local	intron	1615	1967	.	+	.	intron_id 4
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice3	1966	1967	.	+	.	intron_id 3 ; splice_site "AG"
+GME1_S.per_LA1278	exonerate:protein2genome:local	cds	1968	2175	.	+	.	
+GME1_S.per_LA1278	exonerate:protein2genome:local	exon	1968	2175	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice5	2176	2177	.	+	.	intron_id 5 ; splice_site "GT"
+GME1_S.per_LA1278	exonerate:protein2genome:local	intron	2176	2311	.	+	.	intron_id 5
+GME1_S.per_LA1278	exonerate:protein2genome:local	splice3	2310	2311	.	+	.	intron_id 4 ; splice_site "AG"
+GME1_S.per_LA1278	exonerate:protein2genome:local	cds	2312	2464	.	+	.	
+GME1_S.per_LA1278	exonerate:protein2genome:local	exon	2312	2464	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+GME1_S.per_LA1278	exonerate:protein2genome:local	similarity	492	2464	1911	+	.	alignment_id 0 ; Query XP_010323635_1 ; Align 492 1 408 ; Align 1066 138 93 ; Align 1257 169 129 ; Align 1484 213 129 ; Align 1969 257 207 ; Align 2312 326 153
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

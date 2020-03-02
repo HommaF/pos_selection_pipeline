@@ -1,0 +1,91 @@
+
+RAxML-NG v. 0.8.1 BETA released on 05.03.2019 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called at 01-Mar-2020 21:59:14 as follows:
+
+raxml-ng --msa LOC101264616_prot_linear_multi_sl25_prt_codonAlignment.fasta --prefix LOC101264616_prot_linear_multi_sl25_prt_codonAlignment --model GTR+G --seed 123 --bs-tree 100 --force
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 123
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (6 threads), thread pinning: OFF
+
+WARNING: Running in FORCE mode: all safety checks are disabled!
+
+[00:00:00] Reading alignment from file: LOC101264616_prot_linear_multi_sl25_prt_codonAlignment.fasta
+[00:00:00] Loaded alignment with 104 taxa and 441 sites
+
+Alignment comprises 1 partitions and 40 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 441 / 40
+Gaps: 0.00 %
+Invariant sites: 91.61 %
+
+
+NOTE: Binary MSA file created: LOC101264616_prot_linear_multi_sl25_prt_codonAlignment.raxml.rba
+
+[00:00:00] Generating 10 random starting tree(s) with 104 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 104 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 7 / 112
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:01] ML tree search #1, logLikelihood: -1027.720704
+[00:00:03] ML tree search #2, logLikelihood: -1028.049020
+[00:00:05] ML tree search #3, logLikelihood: -1040.713199
+[00:00:07] ML tree search #4, logLikelihood: -1027.791514
+[00:00:09] ML tree search #5, logLikelihood: -1028.130140
+[00:00:11] ML tree search #6, logLikelihood: -1027.200767
+[00:00:14] ML tree search #7, logLikelihood: -1027.467217
+[00:00:15] ML tree search #8, logLikelihood: -1033.868652
+[00:00:17] ML tree search #9, logLikelihood: -1028.049688
+[00:00:20] ML tree search #10, logLikelihood: -1026.421689
+[00:00:20] ML tree search #11, logLikelihood: -1029.064646
+[00:00:21] ML tree search #12, logLikelihood: -1031.275254
+[00:00:23] ML tree search #13, logLikelihood: -1027.719745
+[00:00:24] ML tree search #14, logLikelihood: -1030.435561
+[00:00:25] ML tree search #15, logLikelihood: -1029.353505
+[00:00:26] ML tree search #16, logLikelihood: -1029.192411
+[00:00:27] ML tree search #17, logLikelihood: -1031.344836
+[00:00:28] ML tree search #18, logLikelihood: -1028.854302
+[00:00:29] ML tree search #19, logLikelihood: -1029.267740
+[00:00:30] ML tree search #20, logLikelihood: -1028.214034
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.020136 (ML),  weights&rates: (0.250000,0.000000) (0.250000,0.000000) (0.250000,0.000001) (0.250000,3.999999) 
+   Base frequencies (ML): 0.345347 0.160769 0.204311 0.289573 
+   Substitution rates (ML): 3.006901 20.979770 8.826898 8.013108 37.747248 1.000000 
+
+Final LogLikelihood: -1026.421689
+
+AIC score: 2480.843379 / AICc score: 2888.011521 / BIC score: 3355.898982
+Free parameters (model + branch lengths): 214
+
+Best ML tree saved to: /home/homma/Desktop/coding/github/pos_selection_pipeline/tomato_pipeline/pipeline/LOC/raxml-ng/LOC101264616_prot_linear_multi_sl25_prt_codonAlignment.raxml.bestTree
+All ML trees saved to: /home/homma/Desktop/coding/github/pos_selection_pipeline/tomato_pipeline/pipeline/LOC/raxml-ng/LOC101264616_prot_linear_multi_sl25_prt_codonAlignment.raxml.mlTrees
+Optimized model saved to: /home/homma/Desktop/coding/github/pos_selection_pipeline/tomato_pipeline/pipeline/LOC/raxml-ng/LOC101264616_prot_linear_multi_sl25_prt_codonAlignment.raxml.bestModel
+
+Execution log saved to: /home/homma/Desktop/coding/github/pos_selection_pipeline/tomato_pipeline/pipeline/LOC/raxml-ng/LOC101264616_prot_linear_multi_sl25_prt_codonAlignment.raxml.log
+
+Analysis started: 01-Mar-2020 21:59:14 / finished: 01-Mar-2020 21:59:44
+
+Elapsed time: 30.569 seconds
+

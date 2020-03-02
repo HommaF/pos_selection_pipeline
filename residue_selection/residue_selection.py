@@ -147,6 +147,10 @@ for h in range(int(len(alignments))):
     print(new)
     print(loci)
 
+    alt_seq = list()
+    for i in range(int(len(loci))):
+        alt_seq.append(list())
+
     codon_list = list()
     for i in range(int(len(loci))):
         codon_list.append(list())
@@ -154,18 +158,11 @@ for h in range(int(len(alignments))):
     header = list()
     ref_seq = list()
 
-    alt_seq = list()
-    for i in range(int(len(loci))):
-        alt_seq.append(list())
-
-    print(codon_list)
-
     ref_hit = 0
 
     with open(alignments[h]) as f:
         for line in f:
             line = line.strip()
-
 
             if ref_hit < 2:
                 ref_hit += 1
@@ -253,6 +250,7 @@ for h in range(int(len(alignments))):
     new_file.append(temp)
 
 data = pd.DataFrame(new_file, columns=['seq_name', 'residues under positive selection'])
+
 print(data)
 
 data.to_csv(sys.argv[2], index=None)

@@ -8,6 +8,7 @@ import glob
 import pandas as pd
 import numpy as np
 import random
+import time
 
 
 ## include QC filter and how to deal with several alleles
@@ -52,29 +53,15 @@ for i in range(len(data)):
 
                     chrom_counter += 1
 
-#                    if chrom_counter == chrom_oi:
-#                        target_chrom = line
-
-
                 elif chrom_counter > 9:
 
                     chrom_counter += 1
-
-#                    if chrom_counter == chrom_oi:
-#                        target_chrom = line
-
 
 # matching the chromosome of interest
 
             elif chrom_counter == chrom_oi:
 
                 print('current chromosome: ' + str(chrom_counter))
-#               print(target_chrom)
-                
-#                print(len(line))
-#                print('found it')
-#                print(line[lower_bound:upper_bound])
-
                 
 # defining the name of the extracted reference sequence
 
@@ -100,11 +87,9 @@ for i in range(len(data)):
     for vcf in glob.glob(sys.argv[3] + '*.vcf'):
 
         region = backup
-        print(vcf)
         genome_name = vcf[14:-4]
         seq_name = ">" + gene_name + "_" + genome_name
         gene_variants.append(seq_name)
-        print(seq_name)
 
         linear_line = None
         snp_stats = list()
@@ -136,20 +121,13 @@ for i in range(len(data)):
             clip_chrom = 'SL2.50ch0' + str(chrom_oi)
 
 
-            ###NEXT! exlucde all rows that don't contain the regions with the SNPs of interest!
-
         snps = pd.read_csv(vcf, sep="\\t", skiprows = lines_of_comments, engine = "python")
-#        print(snps)
-        print('Chromosome of interest:',clip_chrom)
+#        snps = snps.loc[(snps['#CHROM'] == clip_chrom) & (snps['POS'].between(lower_bound-500, upper_bound+500)) & (snps['QUAL'] > 80)]
         snps = snps.loc[snps['#CHROM'] == clip_chrom]
-#        print(snps)
-#        print('data_type:',type(snps['POS'][2]))
-#        print('data_type lower_bound:', type(lower_bound))
         snps = snps.loc[snps['POS'] > lower_bound-500]
         snps = snps.loc[snps['POS'] < upper_bound+500]
         snps = snps.loc[snps['QUAL'] > 80]
         snps = snps.reset_index()
-        print(snps)
         current_genome = vcf[:-4]
 
         seq = upper_bound - lower_bound + 1000
@@ -161,58 +139,44 @@ for i in range(len(data)):
 
 # adjusting the pointer in the vcf file to the right chromosome
 
+        if len(snps) == 0:
+            gene_variants = gene_variants[:-1]
+            finish_counter += 1
+
+        else:
             
-        for i in range(len(snps)):
+            for j in range(len(snps)):
 
-#            rest = int(snps['POS'][i]) - (lower_bound - 500)
-#            rest = int(snps['POS'][pos_counter]) - (lower_bound - 500)
+                ref = str(snps['REF'][j])
+                len_ref = len(str(ref))
+                before = snps['POS'][j] - (lower_bound-500) - 1 + indel_correction
+                after = before + len(str(ref))
 
-#            if rest in snp_range:
-#                print('we are in range')
-#                print('QC: ' + str(snps['QUAL'][pos_counter]))
+                alt = random.choice(str(snps['ALT'][j]).split(","))
+                len_alt = len(alt)
+                
+                if region[before:after].lower() == ref.lower():
+                            
+                    region = region[:before] + alt + region[before+len_ref:]
+                    indel_correction = indel_correction + len_alt - len_ref
+                    nb_counting_snps += 1
+                    nb_snps += 1
 
-            ref = str(snps['REF'][i])
-            len_ref = len(str(ref))
-            before = snps['POS'][i] - (lower_bound-500) - 1 + indel_correction
-            after = before + len(str(ref))
+                   
+                if j == len(snps) - 1:
+                    gene_variants.append(region)
+                    finish_counter += 1
 
-            alt = random.choice(str(snps['ALT'][i]).split(","))
-            len_alt = len(alt)
-            
-#                    print(alt)
-            if region[before:after].lower() == ref.lower():
-#                        print(region[before:after])
-#                        print(ref)
-#                    if snps['QUAL'][pos_counter] > 80: 
+                    if finish_counter%10 ==0:
+                        print('finished vcf', finish_counter, '/', counter)
+                        print(time.process_time())
 
-#                        print('QC: ' + str(snps['QUAL'][pos_counter]))
-#                        print('passed QC control')
-                        
-                region = region[:before] + alt + region[before+len_ref:]
-                indel_correction = indel_correction + len_alt - len_ref
-                nb_counting_snps += 1
-                nb_snps += 1
+    thefile = open(gene_name + "_genomic.fasta", 'w')
+    for item in gene_variants:
+        thefile.write("%s\n" % item)
+    thefile.close()
+    print(time.process_time())
 
-#            elif rest > seq:
-#                print('we are now out of range')
-#                print(str(nb_counting_snps) + '/' + str(nb_snps) + ' of found snps passed QC')
-               
-            if i == len(snps) - 1:
-                gene_variants.append(region)
-
-                finish_counter += 1
-
-                print('finished vcf', finish_counter, '/', counter)
-
-#            pos_counter += 1
-
-        print(gene_variants)
-        
-
-        thefile = open(gene_name + ".fasta", 'w')
-#        thefile = open("test.fasta", 'w')
-        for item in gene_variants:
-            thefile.write("%s\n" % item)
 
         
 

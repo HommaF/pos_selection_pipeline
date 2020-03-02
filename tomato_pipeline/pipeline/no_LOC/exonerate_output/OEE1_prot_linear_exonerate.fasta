@@ -1,0 +1,25 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/OEE1_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	503	1644	1669	-	.	gene_id 0 ; sequence NP_001308345_1 ; gene_orientation + ; identity 99.40 ; similarity 100.00
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1402	1644	.	-	.	
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1402	1644	.	-	.	insertions 0 ; deletions 0 ; identity 97.56 ; similarity 100.00
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1400	1401	.	-	.	intron_id 1 ; splice_site "GT"
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1259	1401	.	-	.	intron_id 1
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1259	1260	.	-	.	intron_id 0 ; splice_site "AG"
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	503	1258	.	-	.	
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	503	1258	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+OEE1_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	503	1644	1669	-	.	alignment_id 0 ; Query NP_001308345_1 ; Align 1645 1 243 ; Align 1259 82 756
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

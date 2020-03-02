@@ -1,0 +1,30 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/LOC101254426_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	gene	504	1619	1688	-	.	gene_id 0 ; sequence XP_004247978_1 ; gene_orientation + ; identity 98.42 ; similarity 99.68
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	cds	1229	1619	.	-	.	
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	exon	1229	1619	.	-	.	insertions 0 ; deletions 0 ; identity 97.69 ; similarity 99.23
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	splice5	1227	1228	.	-	.	intron_id 1 ; splice_site "GT"
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	intron	1155	1228	.	-	.	intron_id 1
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	splice3	1155	1156	.	-	.	intron_id 0 ; splice_site "AG"
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	cds	995	1154	.	-	.	
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	exon	995	1154	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	splice5	993	994	.	-	.	intron_id 2 ; splice_site "GT"
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	intron	910	994	.	-	.	intron_id 2
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	splice3	910	911	.	-	.	intron_id 1 ; splice_site "AG"
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	cds	504	909	.	-	.	
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	exon	504	909	.	-	.	insertions 0 ; deletions 0 ; identity 98.52 ; similarity 100.00
+LOC101254426_S.per_LA1278	exonerate:protein2genome:local	similarity	504	1619	1688	-	.	alignment_id 0 ; Query XP_004247978_1 ; Align 1620 1 390 ; Align 1153 132 156 ; Align 909 185 405
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

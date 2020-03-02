@@ -1,0 +1,60 @@
+Command line: [exonerate --model protein2genome --refine full --score 250 --bestn 1 --showvulgar no --showalignment FALSE --showsugar FALSE --showtargetgff TRUE files/LOC101266369_prot_linear.fasta temp_seq.fasta]
+Hostname: [host2235]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2020-03-01
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	gene	503	5189	1739	-	.	gene_id 0 ; sequence XP_004248260_1 ; gene_orientation + ; identity 99.72 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	5041	5189	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	5041	5189	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	5039	5040	.	-	.	intron_id 1 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	3806	5040	.	-	.	intron_id 1
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	3806	3807	.	-	.	intron_id 0 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	3772	3805	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	3772	3805	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	3770	3771	.	-	.	intron_id 2 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	3682	3771	.	-	.	intron_id 2
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	3682	3683	.	-	.	intron_id 1 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	3499	3681	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	3499	3681	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	3497	3498	.	-	.	intron_id 3 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	3375	3498	.	-	.	intron_id 3
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	3375	3376	.	-	.	intron_id 2 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	3219	3374	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	3219	3374	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	3217	3218	.	-	.	intron_id 4 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2585	3218	.	-	.	intron_id 4
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2585	2586	.	-	.	intron_id 3 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2435	2584	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2435	2584	.	-	.	insertions 0 ; deletions 0 ; identity 98.04 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2433	2434	.	-	.	intron_id 5 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	2321	2434	.	-	.	intron_id 5
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	2321	2322	.	-	.	intron_id 4 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	2219	2320	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	2219	2320	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	2217	2218	.	-	.	intron_id 6 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1619	2218	.	-	.	intron_id 6
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1619	1620	.	-	.	intron_id 5 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1509	1618	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1509	1618	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1507	1508	.	-	.	intron_id 7 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	1427	1508	.	-	.	intron_id 7
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	1427	1428	.	-	.	intron_id 6 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	1308	1426	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	1308	1426	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice5	1306	1307	.	-	.	intron_id 8 ; splice_site "GT"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	intron	592	1307	.	-	.	intron_id 8
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	splice3	592	593	.	-	.	intron_id 7 ; splice_site "AG"
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	cds	503	591	.	-	.	
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	exon	503	591	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+LOC101266369_S.pimpinellifolium_LA2425	exonerate:protein2genome:local	similarity	503	5189	1739	-	.	alignment_id 0 ; Query XP_004248260_1 ; Align 5190 1 147 ; Align 3805 51 33 ; Align 3682 62 183 ; Align 3375 123 156 ; Align 2585 175 150 ; Align 2321 225 102 ; Align 1619 259 108 ; Align 1426 296 117 ; Align 590 336 87
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

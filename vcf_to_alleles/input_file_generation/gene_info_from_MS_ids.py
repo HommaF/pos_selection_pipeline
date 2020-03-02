@@ -164,6 +164,11 @@ df2 = df.drop(total)
 
 
 locus_info = df2[df2.chromosome.isin(list(range(12)))]
+
+chrom_name = sys.argv[1][:-4] + '_chrom_total_info'
+locus_info.to_csv(chrom_name)
+
+
 locus_info = locus_info[['gene', 'chromosome', 'low_bound', 'upp_bound']]
 #print(locus_info)
 #locus_info = locus_info.drop_duplicates(subset=['gene'], keep='first')
@@ -171,7 +176,7 @@ locus_info = locus_info[['gene', 'chromosome', 'low_bound', 'upp_bound']]
 
 
 df2_name = sys.argv[1][:-4] + '_locus_info.csv'
-df2.to_csv(df2_name, index=False)
+df2.to_csv(df2_name)
 
 locus_name = sys.argv[1][:-4] + '_locus_pipeline_selection.csv'
 locus_info.to_csv(locus_name, index=False)
