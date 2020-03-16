@@ -1,1 +1,0 @@
-NC_007898.3	RefSeq	CDS	38089	40293	.	-	0	ID=cds35942;Parent=gene30282;Dbxref=Genbank:YP_008563087.1,GeneID:3950392;Name=YP_008563087.1;gbkey=CDS;gene=psaB;product=photosystem I P700 apoprotein A2;protein_id=YP_008563087.1;transl_table=11
